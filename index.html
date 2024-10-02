@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>História do JavaScript</h1>
+        <nav>
+            <button onclick="popup('popup1')">O que é JavaScript?</button>
+            <button onclick="popup('popup2')">JavaScript e HTML</button>
+            <button onclick="popup('popup3')">JavaScript e CSS</button>
+            <button onclick="popup('popup4')">JavaScript e PHP</button>
+        </nav>
+    </header>
+
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="popup('popup1')">&times;</span>
+            <h2>O que é JavaScript?</h2>
+            <p>JavaScript é uma linguagem de programação usada para tornar as páginas web interativas.</p>
+            <img src="emoji.png" alt="">
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="popup('popup2')">&times;</span>
+            <h2>JavaScript e HTML</h2>
+            <p>JavaScript é frequentemente usado em conjunto com HTML para manipular elementos na página.</p>
+            <img src="emoji.png" alt="">
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="popup('popup3')">&times;</span>
+            <h2>JavaScript e CSS</h2>
+            <p>JavaScript pode alterar estilos CSS, permitindo que você crie animações e efeitos dinâmicos.</p>
+            <img src="emoji.png" alt="">
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="popup('popup4')">&times;</span>
+            <h2>JavaScript e PHP</h2>
+            <p>JavaScript é executado no lado do cliente, enquanto PHP é executado no servidor, permitindo comunicação entre os dois.</p>
+            <img src="emoji.png" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
